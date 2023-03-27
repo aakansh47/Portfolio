@@ -1,0 +1,23 @@
+.containerWork {
+    margin: auto;
+    overflow:auto;
+  }
+  
+  .title {
+    text-align: center;
+    color: yellow;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  
+  .project, .job , .image {
+    margin: auto;
+    width: calc(75% - 30px);
+    border: 1px solid black;
+
+  }
